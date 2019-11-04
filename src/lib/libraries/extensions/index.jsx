@@ -46,6 +46,9 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import myBlockImage from './myblock.png';
+import myBlockInsetImage from './myblock-small.png';
+
 export default [
     {
         name: (
@@ -317,5 +320,13 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+    {
+        name: 'My Block',
+        extensionId: 'myblock',
+        iconURL: myBlockImage,
+        insetIconURL: myBlockInsetImage,
+        description: 'My Block',
+        featured: true
     }
 ];
